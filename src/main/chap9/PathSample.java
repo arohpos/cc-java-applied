@@ -3,6 +3,8 @@ package main.chap9;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+//5)ディレクトリパスの読み込み
+//単体実行によりTEST_PATHのディレクトリ情報を読み込む。
 public class PathSample {
 
 	private static final String TEST_PATH = "/Users/CodeCamp/test";

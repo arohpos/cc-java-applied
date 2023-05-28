@@ -8,17 +8,14 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
  
-/**
- * Files.readAllFiles(), Files.write() を使ったテキストファイル読み書きのサンプル。
- */
+//6)Files.readAllFiles(), Files.write() を使ったテキストファイル読み書きのサンプル。
+//単体実行により1)TextWriteSample.javaで作成されたtextWriteSample2.txtを読み込む。
+//TextReadAndWriteSample.javaを作成し、読み込んだ内容を書き込む。
+
 public class FilesReadWriteSample {
  
-  /**
-   * 読み込むテキストファイルの名前。
-   * (環境に合わせて書き換えてください)
-   */
-  private static final String INPUT_FILE = "/Applications/Eclipse_2022-03.app/Contents/workspace/cc-java-applied/src/main/chap9/sample.txt";
-  private static final String OUTPUT_FILE = "/Applications/Eclipse_2022-03.app/Contents/workspace/cc-java-applied/src/main/chap9/sample2.txt";
+  private static final String INPUT_FILE = "/Applications/Eclipse_2022-03.app/Contents/workspace/cc-java-applied/src/main/chap9/textWriteSample.txt";
+  private static final String OUTPUT_FILE = "/Applications/Eclipse_2022-03.app/Contents/workspace/cc-java-applied/src/main/chap9/textReadAndWriteSample.txt";
  
   
   public static void main(String[] args) {

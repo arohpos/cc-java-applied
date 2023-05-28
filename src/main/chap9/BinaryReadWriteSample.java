@@ -7,8 +7,9 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+//4)バイナリファイルの読み書き
+//単体実行により、original.pngを読み込む。original_output.pngを作成し、読み込んだ内容を書き込む。
 public class BinaryReadWriteSample {
-
 	
 	private static final String INPUT_FILE = "/Applications/Eclipse_2022-03.app/Contents/workspace/cc-java-applied/src/main/chap9/original.png";
 	private static final String OUTPUT_FILE = "/Applications/Eclipse_2022-03.app/Contents/workspace/cc-java-applied/src/main/chap9/original_output.png";

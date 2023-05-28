@@ -5,9 +5,11 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
+//2)テキストファイルの読み込み
+//単体実行により1)TextWriteSample.javaで作成されたtextWriteSample2.txtが読み込まれコンソールに出力される。
 public class TextReadSample {
 
-	private static final String INPUT_FILE = "/Applications/Eclipse_2022-03.app/Contents/workspace/cc-java-applied/src/main/chap9/textWriteSample2.txt";
+	private static final String INPUT_FILE = "/Applications/Eclipse_2022-03.app/Contents/workspace/cc-java-applied/src/main/chap9/textWriteSample.txt";
 
 	public static void main(String[] args) {
 		

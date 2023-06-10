@@ -23,9 +23,10 @@ public class ServerSample {
 			System.out.printf("%s: Server start port[%d]...\r\n\r\n", server.getHostAddress(), SERVER_PORT);
 
 			LOOP: while (true) {
-
+				//クライアントからの接続をトリガーにクライアントに接続するためのソケットを作成する。
 				try (Socket socket = serverSocket.accept()) {
 					InetAddress client = socket.getInetAddress();
+					//クライアントと通信するためのサーバ側の入出力Stream
 					try (InputStream is = socket.getInputStream();
 							OutputStream os = socket.getOutputStream();
 							BufferedReader in = new BufferedReader(new InputStreamReader(is));

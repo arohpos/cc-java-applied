@@ -9,12 +9,11 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Scanner;
 
-public class ClientSample {
-
+public class ClientExercise {
+	
 	private static final String SERVER_HOST = "localhost";
 
 	public static void main(String[] args) {
-
 		try (Socket socket = new Socket(SERVER_HOST, ServerSample.SERVER_PORT);
 				//サーバと通信するためのクライアント側の入出力Stream
 				InputStream is = socket.getInputStream();
@@ -42,7 +41,6 @@ public class ClientSample {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 	}
 
 }

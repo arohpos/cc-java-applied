@@ -18,8 +18,8 @@ public class socketSample {
 			OutputStream out = socket.getOutputStream();
 			BufferedReader in = new BufferedReader(new InputStreamReader(is));
 			
-			out.write("GET /index.html HTTP/1.\r\n".getBytes());
-			out.write("HOST codecamp.jp\r\n".getBytes());
+			out.write("GET /index.html HTTP/1.1\r\n".getBytes());
+			out.write("Host: codecamp.jp\r\n".getBytes());
 			out.write("\r\n".getBytes());
 			out.flush();
 			

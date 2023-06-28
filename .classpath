@@ -15,5 +15,6 @@
 	<classpathentry kind="lib" path="libs/jaxb-api-2.4.0-b180830.0359.jar"/>
 	<classpathentry kind="lib" path="libs/jaxb-core-2.3.0.1.jar"/>
 	<classpathentry kind="lib" path="libs/jaxb-impl-2.4.0-b180830.0438.jar"/>
+	<classpathentry kind="lib" path="libs/h2-2.1.214.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
